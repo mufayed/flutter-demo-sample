@@ -1,0 +1,33 @@
+{
+  "source": [
+    "design-tokens.json"
+  ],
+  "platforms": {
+    "flutter": {
+      "transformGroup": "figma-flutter",
+      "buildPath": "../lib/core/presentation/styles/",
+      "files": [
+        {
+          "destination": "theme/theme.g.dart",
+          "format": "flutter/theme/theme.dart",
+          "prefix": "Figma"
+        },
+        {
+          "destination": "theme/data.g.dart",
+          "format": "flutter/theme/data.dart",
+          "prefix": "Figma"
+        },
+        {
+          "destination": "theme/widgets.g.dart",
+          "format": "flutter/theme/widgets.dart",
+          "prefix": "Figma"
+        },
+        {
+          "destination": "theme/gallery.g.dart",
+          "format": "flutter/theme/gallery.dart",
+          "prefix": "Figma"
+        }
+      ]
+    }
+  }
+}
