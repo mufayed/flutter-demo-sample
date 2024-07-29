@@ -1,16 +1,52 @@
-# demo
+# Flutter Demo Sample
 
-A new Flutter demo project.
+This repository contains a Flutter application developed as a technical assessment project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Pre-setup Steps
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK: Included with Flutter installation.
+- A code editor like [VS Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/mufayed/flutter-demo-sample.git
+    cd flutter-demo-sample
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the application:**
+
+    ```bash
+    flutter run
+    ```
+
+## Project Structure
+
+The project follows a structured clean code approach, with the main directories as follows:
+
+- `lib/`: Contains the main source code for the application.
+  - `core/`: Contains core utilities, styles, and shared components.
+  - `domain/`: Contains business logic and entities.
+  - `data/`: Contains data handling logic and repositories.
+  - `presentation/`: Contains the UI layer, including widgets and screens.
+
+## Dependencies
+
+- **flutter_bloc**: ^8.1.6
+- **equatable**: ^2.0.5
+- **intl**: ^0.17.0
+- **sizer**: ^2.0.15
+- **google_fonts**: ^6.2.1
+- **flutter_svg**: ^2.0.10+1
+- **get_it**: ^7.7.0
